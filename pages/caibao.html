@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>震旦珠宝</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/caibao.css">
+    <script src="../js/lib/jquery.min.js"></script>
+    <script src="../js/public.js"></script>
+    <script src="../js/caibao.js"></script>
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <div class="container clearfix">
+            <div class="left">
+                <!-- <div class="login">
+                    <span class="welcome">欢迎光临，</span>
+                    <span class="username">夜客2017</span>
+                    <span class="quit">退出</span>
+                  </div> -->
+                <div class="login">
+                    <a href="./pages/login.html" class="welcome">登录</a>
+                    <a href="#" class="quit">注册</a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="cart">
+                    <i class="iconfont icon-gouwuche"></i>
+                    <span>购物车(0)</span>
+
+                </div>
+                <ul class="info">
+                    <li class="item">
+                        <a href="">我的订单</a>
+                    </li>
+                    <li class="item">
+                        <a href="">关注我们</a>
+                    </li>
+                    <li class="item">
+                        <a href="">帮助中心</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div id="nav">
+        <div class="container clearfix">
+            <div class="left">
+                <a href="index.html" class="logo"></a>
+            </div>
+            <div class="right">
+                <div class="search">
+                    <input type="text" id="search-value">
+                    <i class="iconfont icon-search"></i>
+                </div>
+                <ul class="menu">
+                    <li>首页
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#">栏目导航</a>
+                                </li>
+                                <li>
+                                    <a href="#">商品列表页</a>
+                                </li>
+                                <li>
+                                    <a href="#">商品详情页</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>珠宝系列
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#">钻石</a>
+                                </li>
+                                <li>
+                                    <a href="#">彩钻</a>
+                                </li>
+                                <li>
+                                    <a href="./pages/caibao.html">彩宝</a>
+                                </li>
+                                <li>
+                                    <a href="#">玉石</a>
+                                </li>
+                                <li>
+                                    <a href="#">其他</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>婚嫁系列
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#">钻石婚戒</a>
+                                </li>
+                                <li>
+                                    <a href="#">钻石项链</a>
+                                </li>
+                                <li>
+                                    <a href="#">裸钻定制</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>匠心臻品
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#">裸钻定制</a>
+                                </li>
+                                <li>
+                                    <a href="#">彩钻定制</a>
+                                </li>
+                                <li>
+                                    <a href="#">彩宝定制</a>
+                                </li>
+                                <li>
+                                    <a href="#">玉石定制</a>
+                                </li>
+                                <li>
+                                    <a href="#">款式</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>客户服务
+                        <div class="dropdown">
+                            <ul>
+                                <li>
+                                    <a href="#">珠宝知识</a>/li>
+                                    <li>
+                                        <a href="#">影像学习</a>/li>
+                                        <li>
+                                            <a href="#">珠宝保养</a>/li>
+                                            <li>
+                                                <a href="#">让宝贝回家</a>
+                                            </li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li>sino品牌
+                            <div class="dropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">震旦文化</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">专家团队</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">设计团队</a>
+                                    </li>
+                                    <li>
+                                        <a href="./pages/lianxiwomen.html">联系我们</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 彩宝 -->
+    <div id="caibao">
+        <div class="banner">
+            <img src="../imgs/jewellery_series.png">
+        </div>
+        <div class="container">
+            <!-- 面包屑 -->
+            <div class="crumb">
+                <div class="crumb-item">
+                  <a href="#">首页</a>
+                  <i class="arrow"></i>
+                  <a href="#">珠宝系列</a>
+                  <i class="arrow"></i>
+                  <a href="#">彩宝</a>
+                </div>
+            <div class="main">
+                <div class="siderbar">
+                    <div class="type">
+                        <div class="title">规格（克拉）
+                            <i class="iconfont icon-jiantouxiangxia"></i>
+                        </div>
+                        <div class="items">
+                            <div class="item">10分以下</div>
+                            <div class="item">10分-30分</div>
+                            <div class="item">30分-50分</div>
+                            <div class="item">50分-1克拉</div>
+                            <div class="item">1克拉以上</div>
+                        </div>
+                    </div>
+                    <div class="type">
+                        <div class="title">彩宝分类
+                            <i class="iconfont icon-jiantouxiangxia"></i>
+                        </div>
+                        <div class="items">
+                            <div class="item">戒指</div>
+                            <div class="item">项链/吊坠</div>
+                            <div class="item">手镯/手链</div>
+                            <div class="item">耳环/耳钉</div>
+                            <div class="item">胸针</div>
+                            <div class="item">其他</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="sort">
+                        <span class="sort-item">综合</span>
+                        <span class="sort-item">价格</span>
+                        <span class="sort-item">喜欢</span>
+                    </div>
+                    <div class="goods-wrapper">
+                        <div class="goods">
+                            <a href="#">
+                                <div class="goods-item">
+                                    <img src="../imgs/good.png">
+                                    <p class="intr">SINO LOVING</p>
+                                    <p class="title">猫眼戒指</p>
+                                    <p class="price">￥244,500</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="goods">
+                            <a href="#">
+                                <div class="goods-item">
+                                    <img src="../imgs/good.png">
+                                    <p class="intr">SINO LOVING</p>
+                                    <p class="title">猫眼戒指</p>
+                                    <p class="price">￥244,500</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="goods">
+                            <a href="#">
+                                <div class="goods-item">
+                                    <img src="../imgs/good.png">
+                                    <p class="intr">SINO LOVING</p>
+                                    <p class="title">猫眼戒指</p>
+                                    <p class="price">￥244,500</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <i class="iconfont icon-sanjiaoxing-left"></i>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                        </ul>
+                        <i class="iconfont icon-sanjiaoxing-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <div id="footer">
+        <div class="container">
+            <div class="service">
+                <h4 class="title">客服中心电话</h4>
+                <p class="tel">400-888-8888</p>
+                <p class="work-time">工作时间：周一至周日 9:00至18:00</p>
+                <p class="email">总裁邮箱：ceo@jadeland.cn</p>
+            </div>
+            <div class="help">
+                <div class="item">
+                    <h4>下单与配送</h4>
+                    <ul>
+                        <li>购物流程</li>
+                        <li>支付方式</li>
+                        <li>配送方式</li>
+                        <li>运费标准</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h4>
+                        售后服务
+                    </h4>
+                    <ul>
+                        <li>购物流程</li>
+                        <li>支付方式</li>
+                        <li>配送方式</li>
+                        <li>运费标准</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h4>
+                        联系方式
+                    </h4>
+                    <ul>
+                        <li>购物流程</li>
+                        <li>支付方式</li>
+                        <li>配送方式</li>
+                        <li>运费标准</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="follow">
+                <h4>关注我们</h4>
+                <div class="content">
+                    <a class="item" href="https://weibo.com/u/6418580550?refer_flag=1001030101_&is_hot=1">
+                        <i class="iconfont icon-weibo1"></i>
+                        <p>官方微博</p>
+                    </a>
+                    <div class="item">
+                        <i class="iconfont icon-weixin1-copy"></i>
+                        <p>微信公众号</p>
+                        <div class="erweima">
+                            <img src="./imgs/erweima.png" alt="震旦珠宝">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+    </div>
+</body>
+
+</html>
